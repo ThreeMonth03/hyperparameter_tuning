@@ -1,0 +1,31 @@
+version: '3'
+services:
+  hyperparameter_tuning:
+    build: ./
+    image: threemonth_hyperparameter_tuning
+    volumes:
+      - ./:/workspace
+    container_name: threemonth_hyperparameter_tuning
+    ports:
+      - "8323:8323"
+    restart: unless-stopped
+    command: python src/nni_search.py
+    deploy:
+      resources:
+        reservations:
+          devices:
+          - driver: nvidia
+            device_ids: ['1, 2, 3']
+            capabilities: [gpu]
+    #command: bash
+    #entrypoint: 
+    #  - jupyter
+    #  - notebook
+    #  - --allow-root
+    #  - --no-browser
+    #  - --ip=0.0.0.0
+    #  - --port=8323
+    #  - --NotebookApp.token=''
+    #  - --NotebookApp.password=''
+    tty: true
+    stdin_open: true
