@@ -1,0 +1,38 @@
+[2023-08-27 20:43:09] PRINT cuda
+[2023-08-27 20:43:09] PRINT {'lr': 0.02457151901960377, 'momentum': 0.5798222543989237, 'batch_size': 16}
+[2023-08-27 20:43:09] PRINT Files already downloaded and verified
+[2023-08-27 20:43:11] PRINT Files already downloaded and verified
+[2023-08-27 20:45:01] PRINT [1,  2000] loss: 1.801
+[2023-08-27 20:47:37] PRINT [2,  2000] loss: 1.365
+[2023-08-27 20:50:11] PRINT [3,  2000] loss: 1.224
+[2023-08-27 20:52:45] PRINT [4,  2000] loss: 1.137
+[2023-08-27 20:55:18] PRINT [5,  2000] loss: 1.070
+[2023-08-27 20:57:50] PRINT [6,  2000] loss: 1.024
+[2023-08-27 21:00:24] PRINT [7,  2000] loss: 0.995
+[2023-08-27 21:02:57] PRINT [8,  2000] loss: 0.952
+[2023-08-27 21:05:32] PRINT [9,  2000] loss: 0.925
+[2023-08-27 21:08:06] PRINT [10,  2000] loss: 0.892
+[2023-08-27 21:10:39] PRINT [11,  2000] loss: 0.887
+[2023-08-27 21:13:13] PRINT [12,  2000] loss: 0.865
+[2023-08-27 21:15:46] PRINT [13,  2000] loss: 0.847
+[2023-08-27 21:18:18] PRINT [14,  2000] loss: 0.850
+[2023-08-27 21:20:53] PRINT [15,  2000] loss: 0.831
+[2023-08-27 21:23:27] PRINT [16,  2000] loss: 0.811
+[2023-08-27 21:25:59] PRINT [17,  2000] loss: 0.815
+[2023-08-27 21:28:31] PRINT [18,  2000] loss: 0.800
+[2023-08-27 21:31:05] PRINT [19,  2000] loss: 0.804
+[2023-08-27 21:33:38] PRINT [20,  2000] loss: 0.786
+[2023-08-27 21:34:34] PRINT Finished Training
+[2023-08-27 21:34:34] PRINT GroundTruth:  cat   ship  ship  plane
+[2023-08-27 21:34:34] PRINT Predicted:  cat   car   plane plane
+[2023-08-27 21:35:08] PRINT Accuracy of the network on the 10000 test images: 58 %
+[2023-08-27 21:35:41] PRINT Accuracy for class: plane is 68.1 %
+[2023-08-27 21:35:41] PRINT Accuracy for class: car   is 74.4 %
+[2023-08-27 21:35:41] PRINT Accuracy for class: bird  is 36.8 %
+[2023-08-27 21:35:41] PRINT Accuracy for class: cat   is 38.8 %
+[2023-08-27 21:35:41] PRINT Accuracy for class: deer  is 50.5 %
+[2023-08-27 21:35:41] PRINT Accuracy for class: dog   is 50.4 %
+[2023-08-27 21:35:41] PRINT Accuracy for class: frog  is 71.0 %
+[2023-08-27 21:35:41] PRINT Accuracy for class: horse is 65.7 %
+[2023-08-27 21:35:41] PRINT Accuracy for class: ship  is 70.1 %
+[2023-08-27 21:35:41] PRINT Accuracy for class: truck is 60.9 %
